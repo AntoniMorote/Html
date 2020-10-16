@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        	<title>Pr&agrave;ctica</title>
+        </head>
+	<body background="https://i.pinimg.com/originals/ae/94/48/ae94481e07fd39a444cb27a03c31d621.jpg" style="background-size:cover">
+	<table style="width:800px" border="3" align="center">
+		<thead align="center">
+			<tr>
+				<th>
+					<font size=5>
+						<h1 style="font-family:courier; text-align:center;" title="Entrada">Pr&aacute;ctica: Formularis</h1>
+					</font>
+				</th>
+			</tr>
+		</thead>
+	</table>
+	<br><br>
+		<h2>1. Pruebas</h2>
+		<br>
+		<hr>
+		<br>
+		<form>
+			<label for="fname">Nombre:</label>
+			<br>
+			<input type="text" id="fname" name="fname" placeholder="Antoni">
+			<br>
+			<label for="sname">1r Apellido:</label>
+			<br>
+			<input type="text" id="sname" name="sname" placeholder="Morote">
+			<br>
+			<label for="lname">2n Apellido:</label>
+			<br>
+			<input type="text" id="lname" name="lname" placeholder="Samy">
+			<br><br>
+			<label for="years">Edad:</label>	   
+			<br>
+			<input type="number" min="0" max="125" id="years" name="years" placeholder="25" size="3">
+			<br><br>
+			<label for="eyes">Color de Ojos:</label>
+			<select id="colors" name="colors">
+				<option value="" readonly>Elige tu opcion</option>
+				<option value="marrons">Marrons</option>
+				<option value="blaus">Blaus</option>
+				<option value="verds">Verds</option>
+				<option value="negres">Negres</option>
+			</select>
+			<br><br>
+			<hr>
+			<br>
+			<label for="email">Escribe tu email:</label>
+			<input type="email" id="email" name="email">
+			<br><br>
+			<hr>
+			<br>
+			<label for="class">Materias Cursando:</label>
+			<br>
+			<input type="checkbox" id="M01" name="M01" value="M01" checked>
+			<label for="M01">M01</label>
+			<input type="checkbox" id="M02" name="M02" value="M02">
+			<label for="M02">M02</label>
+			<br>
+			<input type="checkbox" id="M03" name="M03" value="M03">
+			<label for="M03">M03</label>
+			<input type="checkbox" id="M04" name="M04" value="M04" checked>
+			<label for="M04">M04</label>
+			<br>
+			<input type="checkbox" id="M05" name="M05" value="M05">
+			<label for="M05">M05</label>
+			<input type="checkbox" id="M06" name="M06" value="M06">
+			<label for="M06">M06</label>
+			<br>
+			<input type="checkbox" id="M07" name="M07" value="M07">
+			<label for="M07">M07</label>
+			<input type="checkbox" id="M08" name="M08" value="M08">
+			<label for="M08">M08</label>
+			<br><br>
+			<hr>
+			<br>
+			<label for="series">Series favoritas:</label>
+			<select id="series" name="series" multiple>
+				<option value="Stranger Things" selected>Stranger Things</option>
+				<option value="Prison Break">Prison Break</option>
+				<option value="Breaking bad">Breaking bad</option>
+				<option value="The Walking Dead" selected>Walking Dead</option>
+				<option value="Vikings">Vikings</option>
+				<option value="Juego de tronos">Juego de tronos</option>
+			</select>
+			<br><br><br>
+			<label for="idioma">Version Original o traducidas</label>
+			<br>
+			<input type="radio" id="original" name="idioma" value="original" checked>
+			<label for="original">Original</label>
+			<br>
+			<input type="radio" id="Trad" name="idioma" value="Trad">
+			<label for="trad">Traducidas</label>
+			<br><br>
+			<hr>
+			<br>
+			<label for="people">Cuanta gente vive en tu casa</label>
+			<select id="people" name="people">
+				<option value="">--Elija opcion--</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="mas">Mas de 5</option>
+			</select>
+			<br><br>
+			<hr>
+			<br>
+			<label for="mascotas">Tienes mascota?</label>
+			<br>
+			<input type="radio" id="si" name="mascotas" value="si">
+			<label for="Si">Si</label>
+			<br>
+			<input type="radio" id="no" name="mascotas" value="no">
+			<label for="No">No</label>
+			<br><br>
+			<label for="si_mascota">Si tienes mascotas pon su nombre en el recuadro</label>
+			<br>
+			<input type="text" name="si_mascota" placeholder="Toby">
+			<br><br>
+			<hr>
+			<br>
+			<label for="describete">Explicame cuales son tus aficiones</label>
+			<textarea name="describete" maxlength="500" rows="5" cols="100" placeholder="Mis aficiones son..."></textarea>
+			<br><br>
+			<hr>
+			<br>
+			<label for="imagen">Sube una imagen porfavor:</label>
+			<input type="file" name="imagen">
+			<br><br>
+			<hr>
+			<br>
+			<label for="reset">Este boton es para resetear todo</label>
+			<button type="reset">Reset</button>
+			<br>
+			<label for="envio">Envio formulario:</label>
+			<button type="submit">Enviar</button>
+		</form>
+	</body>
+</html>
+	
